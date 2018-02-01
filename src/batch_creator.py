@@ -10,7 +10,7 @@ class RecordsBuilder(object):
         batch = []
         temp_array = []
         for record in records:
-            if (sys.getsizeof(record)) >= 1000000:  # 1MB = 1000000. I tested with 35.
+            if (sys.getsizeof(record)) >= 1000000:  # 1MB = 1000000 bytes. I tested with 35.
                 continue
             else:
                 if len(temp_array) < 500 and sys.getsizeof(temp_array) <= 5000000:  # I tested with <5 and <=80
