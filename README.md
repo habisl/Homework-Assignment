@@ -22,7 +22,8 @@ Python3 requires in order to run the program.
 
 ## Running the tests
 
-program can be run from command line. The main.py can be executed from 'src' folder
+Program can be run from command line. Main files are in src folder. main.py can be executed from 'src' folder.
+Tests folder can be ignored or was used during development. 
 ```
 python3 main.py
 ```
