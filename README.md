@@ -16,11 +16,11 @@ Each batch is an array of records just like in the input. The records can be ass
 The library would be useful in an application which continuously reads large numbers of records from a data source and writes them to an AWS Kinesis Data stream. The library could be used to create optimum batches for sending data to the Kinesis stream. However, the library doesn’t need to contain any AWS related code.
 
 
-## Prerequisites
+### Prerequisites
 
 Python3 requires in order to run the program.
 
-## Running the tests
+### Running the tests
 
 Program can be run from command line. Main files are in src folder. main.py can be executed from 'src' folder.
 Tests folder can be ignored or was used during development. 
@@ -34,15 +34,15 @@ What is a record?
 
 A record is the unit of data stored in an Amazon Kinesis data stream. A record is composed of a sequence number, partition key, and data blob. Data blob is the data of interest your data producer adds to a data stream. The maximum size of a data blob (the data payload before Base64-encoding) is 1 megabyte (MB).
 
-## Built With
+### Built With
 
 * PyCharm 
 
-## Authors
+### Authors
 
 * **Habibul Islam** 
 
-## Acknowledgments
+### Acknowledgments
 
 * stackoverflow for giving me some idea.
 
