@@ -1,5 +1,5 @@
 #a = [int(x) for x in input().split()]
-import array_functions
+#import array_functions
 
 
 def main():
