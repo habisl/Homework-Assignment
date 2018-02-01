@@ -2,7 +2,7 @@
 """
 Main file to execute records to batches
 """
-from batch_creator import RecordsBuilder
+from batch_creator_test import RecordsBuilder
 
 
 def main():
