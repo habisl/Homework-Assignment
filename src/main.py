@@ -1,6 +1,6 @@
 #! /usr/bin/python3
 """
-Main file to execute records to batches 
+Main file to execute records to batches
 """
 from batch_creator import RecordsBuilder
 
